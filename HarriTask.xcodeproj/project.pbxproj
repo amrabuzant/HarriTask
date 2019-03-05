@@ -7,17 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE18561B283FD616B783514C /* Pods_HarriTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485CED8EA8DFE5CED1675534 /* Pods_HarriTask.framework */; };
+		D46D4930222E8A480024DEC3 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46D492F222E8A480024DEC3 /* LoginController.swift */; };
+		D46D4933222E8BD10024DEC3 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46D4932222E8BD10024DEC3 /* APIs.swift */; };
+		D46D493A222E8CC50024DEC3 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46D4939222E8CC50024DEC3 /* APIResponse.swift */; };
+		D46D493C222E8D7B0024DEC3 /* LoginObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46D493B222E8D7B0024DEC3 /* LoginObj.swift */; };
+		D46D493E222E8E930024DEC3 /* UserObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46D493D222E8E930024DEC3 /* UserObj.swift */; };
+		D46D4940222EAA800024DEC3 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46D493F222EAA800024DEC3 /* HomeController.swift */; };
 		D4C26B95222E868700E68085 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C26B94222E868700E68085 /* AppDelegate.swift */; };
-		D4C26B97222E868700E68085 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C26B96222E868700E68085 /* ViewController.swift */; };
 		D4C26B9A222E868700E68085 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4C26B98222E868700E68085 /* Main.storyboard */; };
 		D4C26B9C222E868900E68085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4C26B9B222E868900E68085 /* Assets.xcassets */; };
 		D4C26B9F222E868900E68085 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4C26B9D222E868900E68085 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		485CED8EA8DFE5CED1675534 /* Pods_HarriTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HarriTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8401E3961E173ADE14B27DAC /* Pods-HarriTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarriTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-HarriTask/Pods-HarriTask.release.xcconfig"; sourceTree = "<group>"; };
+		C13085DBF2351BBC9AB666D3 /* Pods-HarriTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarriTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HarriTask/Pods-HarriTask.debug.xcconfig"; sourceTree = "<group>"; };
+		D46D492F222E8A480024DEC3 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		D46D4932222E8BD10024DEC3 /* APIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
+		D46D4939222E8CC50024DEC3 /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		D46D493B222E8D7B0024DEC3 /* LoginObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginObj.swift; sourceTree = "<group>"; };
+		D46D493D222E8E930024DEC3 /* UserObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserObj.swift; sourceTree = "<group>"; };
+		D46D493F222EAA800024DEC3 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		D4C26B91222E868700E68085 /* HarriTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarriTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4C26B94222E868700E68085 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D4C26B96222E868700E68085 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D4C26B99222E868700E68085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4C26B9B222E868900E68085 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4C26B9E222E868900E68085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -29,17 +43,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE18561B283FD616B783514C /* Pods_HarriTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76055F88A4B96F2BA1A092AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				485CED8EA8DFE5CED1675534 /* Pods_HarriTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D46D492E222E8A1B0024DEC3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D46D492F222E8A480024DEC3 /* LoginController.swift */,
+				D46D493F222EAA800024DEC3 /* HomeController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D46D4931222E8B960024DEC3 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				D46D4932222E8BD10024DEC3 /* APIs.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		D46D4934222E8C720024DEC3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D46D4939222E8CC50024DEC3 /* APIResponse.swift */,
+				D46D493B222E8D7B0024DEC3 /* LoginObj.swift */,
+				D46D493D222E8E930024DEC3 /* UserObj.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		D4C26B88222E868700E68085 = {
 			isa = PBXGroup;
 			children = (
 				D4C26B93222E868700E68085 /* HarriTask */,
 				D4C26B92222E868700E68085 /* Products */,
+				FA7CF875EA55CEF536D64209 /* Pods */,
+				76055F88A4B96F2BA1A092AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +106,25 @@
 		D4C26B93222E868700E68085 /* HarriTask */ = {
 			isa = PBXGroup;
 			children = (
+				D46D4931222E8B960024DEC3 /* APIs */,
+				D46D4934222E8C720024DEC3 /* Models */,
+				D46D492E222E8A1B0024DEC3 /* ViewControllers */,
 				D4C26B94222E868700E68085 /* AppDelegate.swift */,
-				D4C26B96222E868700E68085 /* ViewController.swift */,
 				D4C26B98222E868700E68085 /* Main.storyboard */,
 				D4C26B9B222E868900E68085 /* Assets.xcassets */,
 				D4C26B9D222E868900E68085 /* LaunchScreen.storyboard */,
 				D4C26BA0222E868900E68085 /* Info.plist */,
 			);
 			path = HarriTask;
+			sourceTree = "<group>";
+		};
+		FA7CF875EA55CEF536D64209 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C13085DBF2351BBC9AB666D3 /* Pods-HarriTask.debug.xcconfig */,
+				8401E3961E173ADE14B27DAC /* Pods-HarriTask.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +134,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4C26BA3222E868900E68085 /* Build configuration list for PBXNativeTarget "HarriTask" */;
 			buildPhases = (
+				671037774D0773E82B2044A2 /* [CP] Check Pods Manifest.lock */,
 				D4C26B8D222E868700E68085 /* Sources */,
 				D4C26B8E222E868700E68085 /* Frameworks */,
 				D4C26B8F222E868700E68085 /* Resources */,
+				C53A515335D4143D67045953 /* [CP] Embed Pods Frameworks */,
+				01B18A7791E7810F1B0DC06E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +196,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01B18A7791E7810F1B0DC06E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HarriTask/Pods-HarriTask-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		671037774D0773E82B2044A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HarriTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C53A515335D4143D67045953 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HarriTask/Pods-HarriTask-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Keyboardy/Keyboardy.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Keyboardy.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HarriTask/Pods-HarriTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D4C26B8D222E868700E68085 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4C26B97222E868700E68085 /* ViewController.swift in Sources */,
+				D46D493E222E8E930024DEC3 /* UserObj.swift in Sources */,
+				D46D4930222E8A480024DEC3 /* LoginController.swift in Sources */,
+				D46D4940222EAA800024DEC3 /* HomeController.swift in Sources */,
+				D46D4933222E8BD10024DEC3 /* APIs.swift in Sources */,
+				D46D493C222E8D7B0024DEC3 /* LoginObj.swift in Sources */,
 				D4C26B95222E868700E68085 /* AppDelegate.swift in Sources */,
+				D46D493A222E8CC50024DEC3 /* APIResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +409,7 @@
 		};
 		D4C26BA4222E868900E68085 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C13085DBF2351BBC9AB666D3 /* Pods-HarriTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +428,7 @@
 		};
 		D4C26BA5222E868900E68085 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8401E3961E173ADE14B27DAC /* Pods-HarriTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
